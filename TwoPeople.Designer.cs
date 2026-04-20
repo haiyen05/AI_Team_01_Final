@@ -103,6 +103,7 @@
             // 
             // guna2HtmlLabel3
             // 
+            guna2HtmlLabel3.AutoSize = false;
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Arial", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.ForeColor = Color.FromArgb(86, 48, 13);
@@ -138,6 +139,7 @@
             // 
             // guna2HtmlLabel2
             // 
+            guna2HtmlLabel2.AutoSize = false;
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Arial", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.FromArgb(86, 48, 13);
@@ -199,6 +201,7 @@
             // 
             // guna2HtmlLabel1
             // 
+            guna2HtmlLabel1.AutoSize = false;
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Arial", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.ForeColor = Color.FromArgb(86, 48, 13);
@@ -231,7 +234,6 @@
             FormClosing += frmTwoPeople_FormClosing;
             Load += TwoPeople_Load;
             guna2Panel1.ResumeLayout(false);
-            guna2Panel1.PerformLayout();
             ResumeLayout(false);
         }
 

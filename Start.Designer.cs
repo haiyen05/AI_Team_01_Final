@@ -130,6 +130,7 @@
             // 
             // guna2HtmlLabel1
             // 
+            guna2HtmlLabel1.AutoSize = false;
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.ForeColor = Color.FromArgb(86, 48, 13);
@@ -162,7 +163,6 @@
             FormClosing += frmStart_FormClosing;
             Load += Start_Load_1;
             guna2Panel1.ResumeLayout(false);
-            guna2Panel1.PerformLayout();
             ResumeLayout(false);
         }
 

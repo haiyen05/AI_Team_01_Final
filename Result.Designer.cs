@@ -180,6 +180,7 @@
             // 
             // lblResult
             // 
+            lblResult.AutoSize = false;
             lblResult.BackColor = Color.Transparent;
             lblResult.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblResult.ForeColor = Color.FromArgb(86, 48, 13);
@@ -202,7 +203,6 @@
             Load += Result_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel2.ResumeLayout(false);
-            guna2Panel2.PerformLayout();
             ResumeLayout(false);
         }
 

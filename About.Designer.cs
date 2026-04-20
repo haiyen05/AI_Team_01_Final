@@ -189,13 +189,12 @@
             guna2HtmlLabel10.ImeMode = ImeMode.NoControl;
             guna2HtmlLabel10.Location = new Point(192, 321);
             guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            guna2HtmlLabel10.Size = new Size(433, 62);
+            guna2HtmlLabel10.Size = new Size(433, 69);
             guna2HtmlLabel10.TabIndex = 17;
             guna2HtmlLabel10.Text = "Nhóm 1 - CLC Công nghệ Thông tin Việt - Anh 1 K64";
             // 
             // label1
             // 
-            label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(193, 226);
             label1.Name = "label1";
@@ -215,6 +214,7 @@
             // 
             // guna2HtmlLabel9
             // 
+            guna2HtmlLabel9.AutoSize = false;
             guna2HtmlLabel9.BackColor = Color.Transparent;
             guna2HtmlLabel9.Font = new Font("Times New Roman", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel9.Location = new Point(171, 273);
@@ -225,6 +225,7 @@
             // 
             // guna2HtmlLabel8
             // 
+            guna2HtmlLabel8.AutoSize = false;
             guna2HtmlLabel8.BackColor = Color.Transparent;
             guna2HtmlLabel8.Font = new Font("Times New Roman", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel8.ForeColor = Color.FromArgb(78, 45, 18);
@@ -236,6 +237,7 @@
             // 
             // guna2HtmlLabel7
             // 
+            guna2HtmlLabel7.AutoSize = false;
             guna2HtmlLabel7.BackColor = Color.Transparent;
             guna2HtmlLabel7.Font = new Font("Times New Roman", 11.1428576F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel7.ForeColor = Color.FromArgb(78, 45, 18);
@@ -301,6 +303,7 @@
             // 
             // guna2HtmlLabel2
             // 
+            guna2HtmlLabel2.AutoSize = false;
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Georgia", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.FromArgb(78, 45, 18);

@@ -1108,28 +1108,6 @@ namespace AI
             }
         }
 
-        private int EvaluateMove(int pitIndex, int direction)
-        {
-            PitState[] boardClone = CloneBoardState();
-            PlayerScore[] scoreClone = CloneScores();
-            int gained = SimulateMove(boardClone, scoreClone, pitIndex, direction, 1);
-
-            int score = gained;
-            score += Math.Max(1, _board[pitIndex].Dan);
-
-            if (WouldNeedRefillAfterMove(boardClone, 1))
-            {
-                score -= 4;
-            }
-
-            if (AppState.Difficulty == GameDifficulty.Hard)
-            {
-                score += _random.Next(3);
-            }
-
-            return score;
-        }
-
         private PitState[] CloneBoardState()
         {
             PitState[] clone = new PitState[_board.Length];
